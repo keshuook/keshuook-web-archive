@@ -72,4 +72,4 @@ createServer(async (req, res) => {
 
     res.writeHead(data.status, {"content-type": mimeType});
     res.end(Buffer.from(await data.arrayBuffer()));
-}).listen(80);
+}).listen(process.env.PORT || 80);
