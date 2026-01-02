@@ -1,6 +1,6 @@
 module github.com/keshuook/keshuook-web-archive
 
-go 1.25.5
+go 1.25.0
 
 require github.com/google/go-github v17.0.0+incompatible
 
