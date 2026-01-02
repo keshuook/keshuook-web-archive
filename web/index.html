@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wayback-nav">
+    <div class="nav-content">
+        <div class="meta-data">
+            <span class="status-label">KESHUOOK WEBARCHIVE</span>
+            <h2 id="active-date">
+                <input type="date" id="date-selector">
+            </h2>
+        </div>
+
+        <div class="url-display">
+            <a href="" id="current-url">/</a>
+        </div>
+    </div>
+
+    <div class="timeline-slider-wrapper">
+        <div class="range-container">
+            <input type="range" min="0" max="10000000" value="10000000" class="time-slider" id="timeSlider">
+            <div class="ticks">
+                <span class="tick"></span>
+                <span class="tick"></span>
+                <span class="tick"></span>
+                <span class="tick"></span>
+                <span class="tick"></span>
+                <span class="tick"></span>
+                <span class="tick"></span>
+                <span class="tick"></span>
+                <span class="tick"></span>
+                <span class="tick"></span>
+            </div>
+        </div>
+        <div class="labels">
+            <span class="year-label">WAIT</span>
+            <span class="year-label">WAIT</span>
+            <span class="year-label">WAIT</span>
+            <span class="year-label">WAIT</span>
+        </div>
+    </div>
+</div>
+<iframe id="display" src="" frameborder="0"></iframe>
+<script src="script.js"></script>
+</body>
+</html>
